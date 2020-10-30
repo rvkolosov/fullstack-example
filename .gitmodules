@@ -1,0 +1,6 @@
+[submodule "laravel-example"]
+	path = laravel-example
+	url = https://github.com/rvkolosov/laravel-example.git
+[submodule "nuxt-example"]
+	path = nuxt-example
+	url = https://github.com/rvkolosov/nuxt-example.git
