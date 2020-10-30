@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: Automatic merge on approval from 
     conditions:
-      - approved-reviews-by=dependabot
+      - author~=^dependabot(|-preview)\[bot\]$
     actions:
       merge:
         method: merge
